@@ -1,0 +1,23 @@
+{
+  "name": "patent-drafting-pro-react",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/prefix_css.mjs && vite",
+    "prefixed:css": "node scripts/prefix_css.mjs",
+    "build": "node scripts/prefix_css.mjs && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.13.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "postcss": "^8.5.8",
+    "postcss-prefix-selector": "^2.1.1",
+    "vite": "^6.0.3"
+  }
+}
